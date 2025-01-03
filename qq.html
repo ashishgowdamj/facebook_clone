@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Mind Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .mind-map {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .node {
+            text-align: center;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            background-color: #f9f9f9;
+        }
+        .line {
+            border-left: 2px dashed #4CAF50;
+            height: 50px;
+            margin: 0 auto;
+        }
+        .subnode {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Mind Map</h1>
+    <div class="mind-map">
+        <div class="node">HTML (Root)
+            <div class="line"></div>
+            <div class="subnode">Basics
+                <ul>
+                    <li>Elements & Attributes</li>
+                    <li>Headings</li>
+                    <li>Paragraphs</li>
+                    <li>Styles</li>
+                </ul>
+            </div>
+            <div class="subnode">Forms
+                <ul>
+                    <li>Form Elements</li>
+                    <li>Form Attributes</li>
+                    <li>Input Types</li>
+                    <li>Input Attributes</li>
+                </ul>
+            </div>
+            <div class="subnode">Graphics
+                <ul>
+                    <li>HTML Canvas</li>
+                    <li>SVG</li>
+                    <li>Colors (RGB, HEX, HSL)</li>
+                </ul>
+            </div>
+            <div class="subnode">Media
+                <ul>
+                    <li>Audio</li>
+                    <li>Video</li>
+                    <li>YouTube Embedding</li>
+                </ul>
+            </div>
+            <div class="subnode">Development
+                <ul>
+                    <li>APIs</li>
+                    <li>Geolocation</li>
+                    <li>Drag & Drop</li>
+                    <li>Web Storage</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
